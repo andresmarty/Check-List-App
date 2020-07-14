@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO App</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container center">
+      <h1 class="center title">List-Check App</h1>
+      <div class="flow-right controls">
+        <span class="count">Item count: <span id="item-count">0</span></span>
+        <span class="count">Unchecked count: <span id="unchecked-count">0</span></span>
+      </div>
+      <button class="button center btn btn-dark" onClick="newTodo()">New TODO</button>
+      <ul id="todo-list" class="todo-list"></ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
